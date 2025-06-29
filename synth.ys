@@ -1,0 +1,5 @@
+# synth.ys
+read_verilog alu.v
+synth -top alu
+write_verilog alu_netlist.v
+stat
